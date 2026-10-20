@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yunique Creationz | Oyinade Abigail — Graphic, UI/UX &amp; Video Designer</title>
+  <meta name="description" content="Yunique Creationz — social media and marketing design, UI/UX and video editing by Oyinade Abigail." />
+  <link rel="icon" href="icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <a href="index.html" class="brand"><img src="icon.png" alt="Yunique Creationz" /></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="contact.html" class="nav-cta">Contact Me</a>
+    </nav>
+  </header>
+
+  <section class="hero2">
+    <div class="h2-photo"><img src="brand.jpeg" alt="Oyinade Abigail, founder of Yunique Creationz" /></div>
+    <div class="h2-shade"></div>
+    <div class="h2-inner">
+      <p class="eyebrow">Graphic Designer · UI/UX · Video Editor</p>
+      <h1>Yunique<br /><em>Creationz</em></h1>
+      <p class="h2-sub">Design that speaks, then sticks. Visuals that help businesses communicate, connect and stand out.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-solid">View Projects</a>
+        <a href="contact.html" class="btn btn-line">Contact me</a>
+      </div>
+      <p class="h2-meta">Oyinade Abigail · Founder · Creating since 2020</p>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div>
+        <p class="eyebrow">01 — About</p>
+        <h2>Great design is more than what people see.</h2>
+      </div>
+      <div class="about-copy">
+        <p>I'm Oyinade Abigail, a graphic designer specializing in social media and marketing design.</p>
+        <p>Since beginning my creative journey in 2020, I've been passionate about turning ideas into compelling visuals that help businesses communicate, connect, and stand out.</p>
+        <p>Through Yunique Creationz, I work with entrepreneurs, startups, and growing businesses to create purposeful designs that combine creativity with clear communication.</p>
+        <p class="pull">It's what they understand, remember, and do because of it.</p>
+        <div class="tags"><span>Social Media Design</span><span>Marketing Design</span><span>Brand Visuals</span><span>UI/UX Design</span><span>Video Editing</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <p class="eyebrow">02 — Services</p>
+      <h2>What I do</h2>
+      <ul class="svc-list">
+        <li><span class="n">01</span><h3>Social Media Design</h3><p>Posts, carousels and campaigns that keep your brand consistent and memorable.</p></li>
+        <li><span class="n">02</span><h3>Marketing Design</h3><p>Flyers, promos and ad creatives that communicate your offer clearly and drive action.</p></li>
+        <li><span class="n">03</span><h3>Brand Visuals</h3><p>Visual direction and brand applications that give your business a look people trust.</p></li>
+        <li><span class="n">04</span><h3>UI/UX Design</h3><p>Clean, user-focused websites and app interfaces, from wireframes to polished screens.</p></li>
+        <li><span class="n">05</span><h3>Video Editing</h3><p>Reels, promos and short-form edits with clean cuts and pacing that hold attention and carry your message.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="container">
+      <div class="work-head">
+        <div>
+          <p class="eyebrow">03 — Portfolio</p>
+          <h2>Selected Work</h2>
+        </div>
+        <p class="work-intro">A collection of visual concepts, marketing designs, and creative projects that reflect my approach to visual communication. Each project is an opportunity to explore ideas, solve design challenges, and translate a message into a compelling visual experience. Explore my work and discover how I bring concepts to life through design.</p>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container cta-inner">
+      <h2>Have a project in mind?</h2>
+      <p>Let's make something people remember.</p>
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-light">Contact me</a>
+        <a href="tel:+2348082730009" class="btn btn-ghost">0808 273 0009</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="logo.jpeg" alt="" class="footer-logo" />
+    <p><a href="mailto:yuniquecreationz247@gmail.com">yuniquecreationz247@gmail.com</a> · <a href="tel:+2348082730009">0808 273 0009</a></p>
+    <p>© <span id="year"></span> Yunique Creationz. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close aria-label="Close">&times;</button>
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-body">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <a href="contact.html" class="btn btn-primary">Start a similar project</a>
+      </div>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Yunique Creationz</title>
+  <meta name="description" content="Contact Yunique Creationz — call, WhatsApp or email Oyinade Abigail." />
+  <link rel="icon" href="icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="index.html" class="brand"><img src="icon.png" alt="Yunique Creationz" /></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#work">Work</a>
+      <a href="contact.html" class="nav-cta">Contact Me</a>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <p class="eyebrow">Contact</p>
+    <h1>Let's create something <em>dope</em>.</h1>
+    <p>Tell me about your brand and what you need. I reply fast.</p>
+  </section>
+
+  <section class="contact-page">
+    <div class="container cp-grid">
+      <div class="cp-cards">
+        <a class="cp-card" href="tel:+2348082730009">
+          <span class="cp-ico">📞</span>
+          <span><small>Call</small><strong>0808 273 0009</strong></span>
+        </a>
+        <a class="cp-card wa" href="https://wa.me/2348082730009?text=Hi%20Yunique%20Creationz%2C%20I%27d%20like%20to%20work%20with%20you." target="_blank" rel="noopener">
+          <span class="cp-ico">💬</span>
+          <span><small>WhatsApp</small><strong>Chat with me now</strong></span>
+        </a>
+        <a class="cp-card" href="mailto:yuniquecreationz247@gmail.com">
+          <span class="cp-ico">✉️</span>
+          <span><small>Email</small><strong>yuniquecreationz247@gmail.com</strong></span>
+        </a>
+        <div class="cp-owner">
+          <img src="brand.jpeg" alt="Oyinade Abigail" />
+          <div><strong>Oyinade Abigail</strong><small>Founder, Yunique Creationz</small></div>
+        </div>
+      </div>
+
+      <form class="form" id="contactForm">
+        <h2>Send a message</h2>
+        <label>Name<input type="text" name="name" required placeholder="Your name" /></label>
+        <label>Email<input type="email" name="email" required placeholder="you@business.com" /></label>
+        <label>What do you need?
+          <select name="service">
+            <option>Social Media Design</option>
+            <option>Marketing Design</option>
+            <option>Brand Visuals</option>
+            <option>UI/UX Design</option>
+            <option>Video Editing</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label>Project details<textarea name="message" rows="4" required placeholder="Tell me about your project"></textarea></label>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Send by email</button>
+          <button type="button" class="btn btn-wa" id="waBtn">Send on WhatsApp</button>
+        </div>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <img src="logo.jpeg" alt="" class="footer-logo" />
+    <p>© <span id="year"></span> Yunique Creationz. All rights reserved.</p>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
