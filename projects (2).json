@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "Solar",
+      "category": "Flyers & Social",
+      "image": "solar.jpg",
+      "description": "A design project by Yunique Creationz."
+    },
+    {
+      "title": "HFX",
+      "category": "Flyers & Social",
+      "image": "hfx.jpg",
+      "description": "A design project by Yunique Creationz."
+    },
+    {
+      "title": "Christmas House in Edinburgh",
+      "category": "Flyers & Social",
+      "image": "edinburgh-christmas.jpg",
+      "description": "Event promo for Escapiq's girls' Christmas getaway. A warm, photo-led layout that sells the experience, price and dates at a glance."
+    },
+    {
+      "title": "Escapiq Tote (Orange)",
+      "category": "Branding",
+      "image": "escapiq-tote-orange.jpg",
+      "description": "Escapiq brand application on a canvas tote, using the outlined mark in white on bold orange."
+    },
+    {
+      "title": "Escapiq Tote (Green)",
+      "category": "Branding",
+      "image": "escapiq-tote-green.jpg",
+      "description": "The Escapiq identity in a second colorway, with the mark cropped large for a confident, modern look."
+    }
+  ]
+}
